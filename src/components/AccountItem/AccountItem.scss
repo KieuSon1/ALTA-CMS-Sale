@@ -1,4 +1,4 @@
-@import "scss/color";
+@import 'scss/color';
 
 .app__account-item {
     height: 48px;
@@ -10,9 +10,8 @@
 
     &__email-icon {
     }
-    
-    &__notification-icon {
 
+    &__notification-icon {
     }
 
     &__account-avatar {
@@ -27,3 +26,4 @@
         }
     }
 }
+//

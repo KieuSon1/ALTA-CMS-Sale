@@ -21,7 +21,7 @@ const Graph: React.FC<{ height?: number }> = ({ height = 320 }) => {
         datasets: [
             {
                 label: '',
-                data: [140, 180, 150, 220, 250, 210, 180],
+                data: [140, 180, 150, 200, 140, 180, 200],
                 fill: true,
                 lineTension: 0.5,
                 backgroundColor: 'rgba(255, 138, 72, .2)',
@@ -39,17 +39,17 @@ const Graph: React.FC<{ height?: number }> = ({ height = 320 }) => {
         },
         maintainAspectRatio: false,
         scales: {
-                x: {
-                    grid: {
-                        color: "rgba(0,0,0,0)"
-                    }
-                },
-                y: {
-                    grid: {
-                        color: "rgba(0,0,0,0.1)"
-                    }
+            x: {
+                grid: {
+                    color: 'rgba(0,0,0,0)',
                 },
             },
+            y: {
+                grid: {
+                    color: 'rgba(0,0,0,0.1)',
+                },
+            },
+        },
     };
     return (
         <div className="graph">
@@ -57,5 +57,5 @@ const Graph: React.FC<{ height?: number }> = ({ height = 320 }) => {
         </div>
     );
 };
-
+//
 export default Graph;
